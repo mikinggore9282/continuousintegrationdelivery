@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: "16.x"
       - run: npm ci
-      - run: npx prettier --c .
+      - run: npx prettier --write .
       - run: npm run ts-coverage
         env:
           CI: true
