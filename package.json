@@ -3,6 +3,10 @@
     "coverage": "^0.4.1"
   },
   "devDependencies": {
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "typescript-coverage-report": "^0.6.4"
+  },
+  "scripts": {
+    "ts-coverage": "typescript-coverage-report"
   }
 }
